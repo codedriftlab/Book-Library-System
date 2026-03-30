@@ -9,20 +9,20 @@ A simple and modern **React Library Application** where users can browse, search
 
 ##  Features
 
-> Browse all books
-> Search books by title or author
-> View detailed information of each book
-> Add new books
-> Clean and simple UI
+-> Browse all books
+-> Search books by title or author
+-> View detailed information of each book
+-> Add new books
+-> Clean and simple UI
 
 ---
 
 ## Tech Stack
 
-> React
-> Vite
-> CSS
-> React Router
+-> React
+-> Vite
+-> CSS
+-> React Router
 
 ---
 
@@ -37,32 +37,6 @@ npm run dev
 
 ---
 
-## Folder Structure
-
-```
-src/
- ├── components/
- │    ├── Navbar.jsx
- │    ├── BookCard.jsx
- │    ├── Footer.jsx
- ├── pages/
- │    ├── Home.jsx
- │    ├── Browse.jsx
- │    ├── Details.jsx
- │    ├── AddBook.jsx
- ├── data/
- │    ├── books.js
- ├── App.jsx
- ├── main.jsx
- ├── styles.css
-```
-
----
-
 ## Author
 
 **Manglesh**
-
----
-
----
