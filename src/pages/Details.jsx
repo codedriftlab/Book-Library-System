@@ -8,6 +8,7 @@ export default function Details() {
 
   return (
     <div className="container">
+      <img src={book.image} alt={book.title} />
       <h2>{book.title}</h2>
       <p>Author: {book.author}</p>
       <p>{book.description}</p>
