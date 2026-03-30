@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import './App.css'
-import BookCard from './components/BookCard'
-import Navbar from './components/Navbar'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Browse from "./pages/Browse";
+import Details from "./pages/Details";
+import AddBook from "./pages/AddBook";
 
 function App() {
-
   return (
-    <>
-    <Navbar />
-    <h1>
-      Book Library System
-    </h1>
-    <BookCard />
-    </>
-  )
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/browse" element={<Browse />} />
+        <Route path="/details/:id" element={<Details />} />
+        <Route path="/add" element={<AddBook />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
