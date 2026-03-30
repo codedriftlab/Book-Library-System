@@ -29,7 +29,7 @@ A simple and modern **React Library Application** where users can browse, search
 ##  Installation
 
 ```
-git clone https://github.com/your-username/library-app.git
+git clone https://github.com/codedriftlab/Book-Library-System.git
 cd library-app
 npm install
 npm run dev
